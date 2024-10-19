@@ -19,8 +19,7 @@ body {
     --roxo-claro: #B9B9B9;
     --verde: #00F157;
     --azul-celeste: #27ABEA;
-    --branco: #EEEEEE;
-    --azul-esverdeado: #74B7C8;
+    --branco: #EEEEEE; 
 }
 
 header {
@@ -149,9 +148,9 @@ ul li {
 .segunda {
     background-color: var(--preto); 
     margin-inline: auto;
-    margin-block: 5rem 10rem; 
+    margin-block: 5rem; 
     max-width: 53.8rem;
-    height: 23rem; 
+    height: 21rem; 
 }
 
 .segunda h3 {
@@ -220,3 +219,63 @@ ul li {
     margin: 1rem;
 }
 
+.terceira {
+    background-color: var(--preto);
+    margin-inline: auto;
+    margin-block: 5rem;
+    max-width: 53.8rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.terceira h3 {
+    font-weight: 700;
+    font-size: 1.6rem;
+    background-color: var(--roxo-escuro);
+    color: var(--roxo-claro);
+    width: 100%;
+    padding: 0.4rem 0; 
+    transition: background-color 2s ease;
+}
+
+.terceira h3:hover {
+    background-color: var(--roxo-medio);
+    color: var(--branco);
+}
+
+.conjunto1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.conjunto1 img {
+    max-width: 30%;
+    width: 100%;
+    height: auto;
+}
+
+.conjunto2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.conjunto2 img {
+    max-width: 30%;
+    width: 100%;
+    height: auto;
+}
+
+
+.conjunto3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.conjunto3 img {
+    max-width: 30%;
+    width: 100%;
+    height: auto;
+}
