@@ -78,7 +78,7 @@ button:hover {
 .primeira {
     background-color: var(--preto);
     margin-inline: auto;
-    margin-block: 5rem;
+    margin-block: 5rem 7rem;
     max-width: 53.8rem;
 }
 
@@ -112,8 +112,8 @@ button:hover {
 }
 
 .primeira img {
-    max-width: 43%; 
-    height: auto; 
+    max-width: 19rem; 
+    height: auto;
     margin-left: 1rem; 
 }
 
@@ -131,6 +131,7 @@ button:hover {
     font-size: 13px;
     text-align: left;
     font-weight: 500;
+    max-width: 30rem;
 }
 
 ul {
@@ -148,9 +149,12 @@ ul li {
 .segunda {
     background-color: var(--preto); 
     margin-inline: auto;
-    margin-block: 5rem; 
+    margin-top: 5rem; 
     max-width: 53.8rem;
-    height: 21rem; 
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .segunda h3 {
@@ -174,6 +178,10 @@ ul li {
     font-size: 1.5rem;
     font-weight: 700;
     text-align: left;
+}
+
+.segunda p {
+    max-width: 40rem;
 }
 
 .segunda img {
@@ -224,6 +232,7 @@ ul li {
     margin-inline: auto;
     margin-block: 5rem;
     max-width: 53.8rem;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
@@ -241,6 +250,10 @@ ul li {
 .terceira h3:hover {
     background-color: var(--roxo-medio);
     color: var(--branco);
+}
+
+.terceira img {
+    margin-bottom: 1rem;
 }
 
 .conjunto1 {
